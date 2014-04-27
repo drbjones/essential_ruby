@@ -20,7 +20,10 @@ loan_quotes = [
 number_of_payments = 180
 principal_amount = 100000.0
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f9640db6d46df5a1ff2f8ea2e8c8b0289f16a8d7
 # Now, loop through the array of loan quotes using .each:
 #   For each option, tell the user how much the monthly payment will be to that bank.
 #   Re-use the pmt method that you defined in Challenge 1.
@@ -28,7 +31,10 @@ principal_amount = 100000.0
 # ====================
 # Your code goes here.
 # ====================
+<<<<<<< HEAD
 
 loan_quotes.each do |bank_option|
   puts "Your payment from #{bank_option["bank"]} would be $#{pmt(bank_option["rate"], number_of_payments,principal_amount)}."
 end
+=======
+>>>>>>> f9640db6d46df5a1ff2f8ea2e8c8b0289f16a8d7
